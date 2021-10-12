@@ -32,28 +32,31 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="GameName" type="Label" parent="Menu"]
+[node name="GameTitle" type="Label" parent="Menu"]
 margin_right = 824.0
-margin_bottom = 159.0
+margin_bottom = 78.0
 custom_fonts/font = SubResource( 1 )
-text = "The Dark Gate
-"
+text = "The Dark Maze"
 align = 1
+uppercase = true
 
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
-margin_top = 163.0
+margin_top = 82.0
 margin_right = 824.0
 margin_bottom = 560.0
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
 margin_right = 824.0
-margin_bottom = 397.0
+margin_bottom = 478.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+alignment = 1
 
 [node name="StartGame" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
+margin_top = 157.0
+margin_bottom = 237.0
 
 [node name="Guide" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
-margin_top = 64.0
-margin_bottom = 124.0
+margin_top = 241.0
+margin_bottom = 321.0
