@@ -60,7 +60,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
-[node name="StartGame2" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
+[node name="StartGame" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
 margin_top = 123.0
 margin_right = 410.0
 margin_bottom = 203.0
