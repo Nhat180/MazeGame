@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Font/Xolonium-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://UI/Title screen/Button/GuideButton.tscn" type="PackedScene" id=2]
 [ext_resource path="res://UI/Title screen/Button/StartGameButton.tscn" type="PackedScene" id=3]
 [ext_resource path="res://logomaze.png" type="Texture" id=4]
+[ext_resource path="res://UI/Title screen/TitleScreen.gd" type="Script" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 64
@@ -16,6 +17,7 @@ font_data = ExtResource( 1 )
 [node name="TitleScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -58,17 +60,15 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
-[node name="StartGame" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
+[node name="StartGame2" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
 margin_top = 123.0
 margin_right = 410.0
 margin_bottom = 203.0
-script = null
 
 [node name="Guide" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
 margin_top = 207.0
 margin_right = 410.0
 margin_bottom = 287.0
-script = null
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 414.0
