@@ -62,11 +62,13 @@ alignment = 1
 margin_top = 123.0
 margin_right = 410.0
 margin_bottom = 203.0
+script = null
 
 [node name="Guide" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
 margin_top = 207.0
 margin_right = 410.0
 margin_bottom = 287.0
+script = null
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 414.0
