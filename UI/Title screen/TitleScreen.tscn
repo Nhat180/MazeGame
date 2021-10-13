@@ -50,44 +50,43 @@ uppercase = true
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
 margin_top = 82.0
 margin_right = 824.0
-margin_bottom = 511.0
+margin_bottom = 493.0
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
 margin_right = 410.0
-margin_bottom = 429.0
+margin_bottom = 411.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
 [node name="StartGame" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
-margin_top = 132.0
+margin_top = 123.0
 margin_right = 410.0
-margin_bottom = 212.0
+margin_bottom = 203.0
 
 [node name="Guide" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
-margin_top = 216.0
+margin_top = 207.0
 margin_right = 410.0
-margin_bottom = 296.0
+margin_bottom = 287.0
 scene_to_load = "res://UI/GuideScreen.tscn"
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 414.0
 margin_right = 824.0
-margin_bottom = 429.0
+margin_bottom = 411.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="TextureRect" type="TextureRect" parent="Menu/CenterRow/CenterContainer"]
-margin_top = 9.0
 margin_right = 410.0
-margin_bottom = 420.0
+margin_bottom = 411.0
 texture = ExtResource( 4 )
 
 [node name="Version" type="Label" parent="Menu"]
-margin_top = 515.0
+margin_top = 497.0
 margin_right = 824.0
-margin_bottom = 578.0
+margin_bottom = 560.0
 custom_fonts/font = SubResource( 2 )
 text = "Version 1.0.0
 Aquira Nhat"
