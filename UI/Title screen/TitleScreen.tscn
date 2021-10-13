@@ -89,5 +89,5 @@ margin_top = 515.0
 margin_right = 824.0
 margin_bottom = 578.0
 custom_fonts/font = SubResource( 2 )
-text = "Version 0.0.1
+text = "Version 1.0.0
 Aquira Nhat"
