@@ -69,6 +69,7 @@ margin_bottom = 203.0
 margin_top = 207.0
 margin_right = 410.0
 margin_bottom = 287.0
+scene_to_load = "res://UI/GuideScreen.tscn"
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 414.0
