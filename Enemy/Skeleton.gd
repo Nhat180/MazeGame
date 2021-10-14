@@ -9,6 +9,7 @@ var item = ItemStats
 var velocity = Vector2.ZERO
 var player = null
 
+# Handle the sprite animation of skeleton
 func _process(delta):
 	if seekPlayer():
 		player = playerDetection.player
@@ -16,9 +17,11 @@ func _process(delta):
 		velocity = direction * delta
 		sprite.flip_h = velocity.x < 0
 
+# Detect player in range
 func seekPlayer():
 	return playerDetection.can_see_player()
 
+# Add the death effect for enemies when player kill them
 func _on_HurtBox_area_entered(area):
 	queue_free()
 	item.sword -= 1
