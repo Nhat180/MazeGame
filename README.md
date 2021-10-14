@@ -8,7 +8,7 @@ This is a simple 2D maze game that have been inspired by a project of my friends
 Basically, you can use the arrow keys to control the movement of the player in game, your target is to collect five coins and a key to open the chest to win the game. Besides, there are some enemies that will block your ways, you have to collect sword to kill them, each sword only kills one of them.
 
 # Download
-[Download for Windows 64-bits]()
+[Download for Windows 64-bits](https://github.com/Nhat180/MazeGame/releases/download/v1.0.0/Maze.zip)
 
 # Screenshots
 Welcome screen
