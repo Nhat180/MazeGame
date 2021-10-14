@@ -19,6 +19,7 @@ func _process(_delta):
 func seekPlayer():
 	return playerDetect.can_see_player()
 
+# The open effect of the chest
 func openChest():
 	sprite.hide()
 	var openEffect = OpenEffect.instance()
@@ -26,5 +27,6 @@ func openChest():
 	openEffect.global_position = global_position
 	timer.start(1)
 
+# Change to victory screen 
 func _on_Timer_timeout():
 	get_tree().change_scene("res://UI/WinScreen.tscn")
