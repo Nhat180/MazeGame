@@ -38,10 +38,11 @@ Victory screen
 * [Email](mailto:aquira180@gmail.com)
 
 # Inspired by
+
 * Tran Mach So Han - s3757937@rmit.edu.vn
 * Pham Huynh Ngoc Hue - s3702554@rmit.edu.vn
 * Pham Thanh Dat - s3678437@rmit.edu.vn
 * Sarbahi Utkarsh - s3743258@rmit.edu.vn
 
-
+[Demo of my friend project](https://www.facebook.com/watch/?v=842440963120659)
 
