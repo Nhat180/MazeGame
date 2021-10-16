@@ -6,4 +6,6 @@
 scene_to_load = "res://World.tscn"
 
 [node name="Label" parent="." index="0"]
+margin_right = -464.0
+rect_min_size = Vector2( 360, 0 )
 text = "Start Game"

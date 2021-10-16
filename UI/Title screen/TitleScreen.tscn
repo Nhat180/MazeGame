@@ -62,13 +62,14 @@ alignment = 1
 
 [node name="StartGame" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
 margin_top = 123.0
-margin_right = 410.0
+margin_right = 360.0
 margin_bottom = 203.0
+size_flags_horizontal = 0
 
 [node name="Guide" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
 margin_top = 207.0
-margin_right = 410.0
 margin_bottom = 287.0
+size_flags_horizontal = 0
 scene_to_load = "res://UI/GuideScreen.tscn"
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
