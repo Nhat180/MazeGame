@@ -6,11 +6,11 @@
 [ext_resource path="res://UI/Title screen/Button/Play.tscn" type="PackedScene" id=4]
 [ext_resource path="res://UI/GuideScreen.gd" type="Script" id=5]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=1]
 size = 24
 font_data = ExtResource( 2 )
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=2]
 size = 24
 font_data = ExtResource( 2 )
 
@@ -41,7 +41,7 @@ __meta__ = {
 margin_right = 1024.0
 margin_bottom = 228.0
 size_flags_vertical = 1
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 text = "
 Your target is to find 5 coins and a key to open the chest for winning 
 the game.
@@ -69,7 +69,7 @@ texture = ExtResource( 1 )
 margin_top = 304.0
 margin_right = 1024.0
 margin_bottom = 334.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "Use arrow keys to move the player"
 align = 1
 

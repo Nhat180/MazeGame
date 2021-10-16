@@ -3,6 +3,7 @@
 [ext_resource path="res://UI/Title screen/Button/MenuButton.tscn" type="PackedScene" id=1]
 
 [node name="Guide" instance=ExtResource( 1 )]
+self_modulate = Color( 0, 0, 0, 1 )
 margin_right = 360.0
 margin_bottom = 80.0
 scene_to_load = "res://Player/Player.tscn"
