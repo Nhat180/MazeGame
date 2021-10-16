@@ -8,4 +8,5 @@ margin_bottom = 80.0
 scene_to_load = "res://Player/Player.tscn"
 
 [node name="Label" parent="." index="0"]
+custom_colors/font_color_shadow = Color( 0.109804, 0.0980392, 0.447059, 1 )
 text = "How To Play"
