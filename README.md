@@ -33,6 +33,8 @@ Victory screen
 * [Wall tileset 16x16](https://nearestneighbor.itch.io/platformer-brick-tileset)
 
 # Contact with me
+* [Myself](https://www.aquira.tk/)
+
 * [Facebook](https://www.facebook.com/profile.php?id=100007658446020)
 
 * [Email](mailto:aquira180@gmail.com)
